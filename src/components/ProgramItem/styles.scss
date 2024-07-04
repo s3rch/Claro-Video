@@ -1,0 +1,109 @@
+.program-item {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid #666;
+  box-sizing: border-box;
+  height: 94.306px;
+  max-height: 94.306px;
+  min-width: 300px;
+  padding: 15px;
+  width: 300px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover,
+  &:focus {
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: background-color 0.3s;
+  }
+
+  &.with-005 {
+    min-width: 50px;
+    width: 50px;
+  }
+
+  &.with-010 {
+    min-width: 100px;
+    width: 100px;
+  }
+
+  &.with-015 {
+    min-width: 150px;
+    width: 150px;
+  }
+
+  &.with-020 {
+    min-width: 200px;
+    width: 200px;
+  }
+
+  &.with-025 {
+    min-width: 250px;
+    width: 250px;
+  }
+
+  &.with-030 {
+    min-width: 300px;
+    width: 300px;
+  }
+
+  &.with-035 {
+    min-width: 350px;
+    width: 350px;
+  }
+
+  &.with-040 {
+    min-width: 400px;
+    width: 400px;
+  }
+
+  &.with-045 {
+    min-width: 450px;
+    width: 450px;
+  }
+
+  &.with-050 {
+    min-width: 500px;
+    width: 500px;
+  }
+
+  &.with-055 {
+    min-width: 550px;
+    width: 550px;
+  }
+
+  &.with-100 {
+    min-width: 600px;
+    width: 600px;
+  }
+
+  &.with-115 {
+    min-width: 750px;
+    width: 750px;
+  }
+
+  &.with-130 {
+    min-width: 900px;
+    width: 900px;
+  }
+
+  &.with-145 {
+    min-width: 1050px;
+    width: 1050px;
+  }
+
+  &.with-200 {
+    min-width: 1200px;
+    width: 1200px;
+  }
+
+  &.with-300 {
+    min-width: 1800px;
+    width: 1800px;
+  }
+
+  &.with-000 {
+    min-width: 300px;
+    width: 300px;
+  }
+
+}

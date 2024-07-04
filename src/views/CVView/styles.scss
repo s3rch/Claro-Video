@@ -1,0 +1,78 @@
+.cv-view {
+  color: #fff;
+  height: 100%;
+
+  &--details {
+    height: 38%;
+    min-height: 38%;
+    padding: 2%;
+  }
+
+  &--details-title,
+  &--details-schedule,
+  &--details-description {
+    max-width: 65%;
+  }
+
+  &--details-title {
+    font-size: 4rem;
+    margin-bottom: 30px;
+  }
+
+  &--details-schedule {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+
+  &--details-description {
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+
+  &--list {
+    height: 56%;
+    overflow-y: auto;
+    display: flex;
+    position: relative;
+  }
+
+  &--list-headers-channel {
+    background-color: #0f0f0f;
+    padding: 25px 0 20px 0;
+    position: sticky;
+    text-align: center;
+    top: 0;
+    z-index: 6;
+  }
+
+  &--list-headers-program {
+    background-color: #0f0f0f;
+    display: flex;
+    padding: 25px 0 20px 0;
+    position: sticky;
+    top: 0;
+    width: fit-content;
+    z-index: 2;
+
+    & > span {
+      width: 300px;
+      min-width: 300px;
+    }
+  }
+
+  &--list-channels {
+    background-color: #0f0f0f;
+    height: fit-content;
+    left: 0;
+    min-width: 200px;
+    padding: 0 1%;
+    position: sticky;
+    width: 14%;
+    z-index: 4;
+  }
+
+  &--list-programs {
+    width: 82%;
+    height: fit-content;
+  }
+}
